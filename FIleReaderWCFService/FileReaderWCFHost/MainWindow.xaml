@@ -1,0 +1,18 @@
+﻿<Window x:Class="FileReaderWCFHost.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileReaderWCFHost"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Vertical">
+        <Button x:Name="btnStart" Content="Start Services" Margin="50,20,50,0" FontSize="18" Click="BtnStart_Click"/>
+        <Button x:Name="btnStop" Content="Stop Services" Margin="50,20,50,20" FontSize="18" Click="BtnStop_Click"/>
+     <!--   <Button x:Name="btnInProc_Click" Content="In-Proc Service" Margin="640,0,28.6,0" Height="33" Click="BtnInProcService_Click"/>
+       
+           
+
+        <Label x:Name="labelMessage" Content="Label" Margin="640,0,9.6,0" RenderTransformOrigin="0.652,1.086" Height="58"/>-->
+
+    </StackPanel></Window>

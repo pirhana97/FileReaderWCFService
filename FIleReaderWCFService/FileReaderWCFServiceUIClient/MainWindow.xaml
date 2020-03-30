@@ -1,0 +1,28 @@
+﻿<Window x:Class="FileReaderWCFServiceUIClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileReaderWCFServiceUIClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Grid Margin="0,0,224,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height = "30.576" />
+                <RowDefinition Height="34.424"/>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width = "300" />
+                <ColumnDefinition Width="175*"/>
+                <ColumnDefinition Width="93*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="FilePath" Grid.Row="0" Grid.Column= "0" Text="Enter File path here" Grid.RowSpan="2" HorizontalAlignment="Right" Width="300" />
+            <Button Grid.Row= "0"  Grid.Column= "1" Click= "OnBrowseClick"   Content= "Browse for file" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="0,0,10,0" />
+            <Button Grid.Row= "0"  Grid.Column= "2" Click= "OnGetContentsClick"   Content= "Get Contents" Grid.RowSpan="2" Margin="83,0,-223,0" />
+            <TextBox x:Name="FileAttributes" Grid.Row="2" Grid.Column= "0" Text="Get File Attributes" HorizontalAlignment="Right" Width="300" Margin="0,0.2,0,-360.2" />
+
+        </Grid>
+    </StackPanel>
+</Window>

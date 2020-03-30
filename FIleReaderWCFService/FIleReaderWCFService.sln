@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReaderWCFService", "FIleReaderService\FileReaderWCFService.csproj", "{F7761393-48C3-4DDE-9C44-2819AA230C23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReaderWCFServiceHost", "FileReaderWCFServiceHost\FileReaderWCFServiceHost.csproj", "{96744709-11B3-4D82-AF8C-746B783015C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReaderServiceProxy", "FileReaderServiceProxy\FileReaderServiceProxy.csproj", "{3093C1CA-92B1-47ED-BB2A-8F5E80709E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReaderServiceClient", "FileReaderServiceClient\FileReaderServiceClient.csproj", "{3BC4CCBF-AB1E-4BD1-82D7-8F41DF0C0A15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReaderWCFServiceUIClient", "FileReaderWCFServiceUIClient\FileReaderWCFServiceUIClient.csproj", "{AA0C0E83-76EF-48F0-B6EF-5F54DCF81958}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReaderWCFHost", "FileReaderWCFHost\FileReaderWCFHost.csproj", "{E333AA24-FDFB-422D-8A9C-76F2F8C868D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7761393-48C3-4DDE-9C44-2819AA230C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7761393-48C3-4DDE-9C44-2819AA230C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7761393-48C3-4DDE-9C44-2819AA230C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7761393-48C3-4DDE-9C44-2819AA230C23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96744709-11B3-4D82-AF8C-746B783015C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96744709-11B3-4D82-AF8C-746B783015C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96744709-11B3-4D82-AF8C-746B783015C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96744709-11B3-4D82-AF8C-746B783015C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3093C1CA-92B1-47ED-BB2A-8F5E80709E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3093C1CA-92B1-47ED-BB2A-8F5E80709E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3093C1CA-92B1-47ED-BB2A-8F5E80709E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3093C1CA-92B1-47ED-BB2A-8F5E80709E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC4CCBF-AB1E-4BD1-82D7-8F41DF0C0A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC4CCBF-AB1E-4BD1-82D7-8F41DF0C0A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC4CCBF-AB1E-4BD1-82D7-8F41DF0C0A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC4CCBF-AB1E-4BD1-82D7-8F41DF0C0A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA0C0E83-76EF-48F0-B6EF-5F54DCF81958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0C0E83-76EF-48F0-B6EF-5F54DCF81958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0C0E83-76EF-48F0-B6EF-5F54DCF81958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0C0E83-76EF-48F0-B6EF-5F54DCF81958}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E333AA24-FDFB-422D-8A9C-76F2F8C868D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E333AA24-FDFB-422D-8A9C-76F2F8C868D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E333AA24-FDFB-422D-8A9C-76F2F8C868D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E333AA24-FDFB-422D-8A9C-76F2F8C868D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF90F8CD-101D-407A-AB66-F7296BA76A62}
+	EndGlobalSection
+EndGlobal
