@@ -1,4 +1,5 @@
-﻿using FileReaderWCFService;
+﻿using FileReaderServiceClient;
+using FileReaderWCFService;
 using System;
 using System.IO;
 using System.ServiceModel;
@@ -32,13 +33,16 @@ namespace FileReaderWCFServiceUIClient
             //IFileReaderService proxy = factory.CreateChannel();
 
             //FileAttributes.Text=proxy.GetFileAttributes(FilePath.Text);
+            //IFileReaderServiceCallback callback = new FileReaderServiceCallback();
+            //InstanceContext context = new InstanceContext(callback);
+            //FileReaderServiceProxy.FileReaderServiceProxy proxy = new FileReaderServiceProxy.FileReaderServiceProxy(context);
 
-            FileReaderServiceProxy.FileReaderServiceProxy proxy = new FileReaderServiceProxy.FileReaderServiceProxy();
+            FileReaderUIServiceProxy.FileReaderServiceProxy proxy = new FileReaderUIServiceProxy.FileReaderServiceProxy();
             string filePath = FilePath.Text;
 
-            FileAttributes.Text = proxy.GetFileAttributes(filePath);
-            string message = proxy.Echo(filePath);
-            MessageBox.Show(message);
+            FileAttributes.Text = proxy.GetAttributes(filePath);
+         //   string message = proxy.Echo(filePath);
+         //   MessageBox.Show(message);
 
             //string fileAttributes = proxy.GetFileAttributes(filePath);
             //MessageBox.Show(fileAttributes);

@@ -100,13 +100,21 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FileReaderServiceProxy\FileReaderServiceProxy.csproj">
-      <Project>{3093c1ca-92b1-47ed-bb2a-8f5e80709e2a}</Project>
-      <Name>FileReaderServiceProxy</Name>
+    <ProjectReference Include="..\FileReaderServiceClient\FileReaderServiceClient.csproj">
+      <Project>{3BC4CCBF-AB1E-4BD1-82D7-8F41DF0C0A15}</Project>
+      <Name>FileReaderServiceClient</Name>
     </ProjectReference>
     <ProjectReference Include="..\FIleReaderService\FileReaderWCFService.csproj">
       <Project>{F7761393-48C3-4DDE-9C44-2819AA230C23}</Project>
       <Name>FileReaderWCFService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileReaderUIServiceProxy\FileReaderUIServiceProxy.csproj">
+      <Project>{16d54ed3-8ab3-46ee-9283-04c4b5f50133}</Project>
+      <Name>FileReaderUIServiceProxy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileReaderUIWCFService\FileReaderUIWCFService.csproj">
+      <Project>{7db20076-ca16-474e-ad85-f0802818425a}</Project>
+      <Name>FileReaderUIWCFService</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
